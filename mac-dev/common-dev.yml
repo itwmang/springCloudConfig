@@ -85,7 +85,7 @@ jdbc:
 # mybatis配置
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
-  type-aliases-package: com.spring.cloud.idea.userdbservice.entity
+  type-aliases-package: com.spring.cloud.service.entity
 
 #####################################################################################################
 
