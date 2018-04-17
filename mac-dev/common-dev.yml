@@ -51,6 +51,7 @@ druid
   connection-properties : druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   loginUsername : admin
   loginPassword : root
+  logSlowSql ： true
 #####################################################################################################
 
 
