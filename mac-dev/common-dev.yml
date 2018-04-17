@@ -49,6 +49,8 @@ druid
   #配置监控统计拦截的filters,去掉后监控界面sql无法统计 wall用于防火墙
   filters : stat,wall,log4j
   connection-properties : druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  loginUsername : admin
+  loginPassword : root
 #####################################################################################################
 
 
