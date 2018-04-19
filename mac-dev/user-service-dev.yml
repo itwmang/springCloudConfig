@@ -1,3 +1,4 @@
+test: configcenter
 #####################################################################################################
 # eurake
 eureka:
@@ -51,7 +52,7 @@ druid:
   connection-properties : druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   loginUsername : admin
   loginPassword : root
-  logSlowSql ： true
+  logSlowSql: true
 #####################################################################################################
 
 
@@ -88,4 +89,3 @@ mybatis:
   type-aliases-package: com.spring.cloud.service.entity
 
 #####################################################################################################
-
