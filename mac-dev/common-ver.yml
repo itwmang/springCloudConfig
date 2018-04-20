@@ -4,7 +4,7 @@ test: configcenter
 eureka:
   client:
     service-url:
-     defaultZone: http://localhost:2188/eureka/
+     defaultZone: http://localhost:2199/eureka/
 
 #####################################################################################################
 
