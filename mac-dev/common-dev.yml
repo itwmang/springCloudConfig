@@ -31,7 +31,8 @@ druid:
   username: root
   password: root
   #初始化大小
-  initial-size: 5
+  #初始化大小，最小，最大
+  initialSize: 5
   #最小
   min-idle : 5
       #最大
