@@ -4,7 +4,7 @@ test: configcenter
 eureka:
   client:
     service-url:
-     defaultZone: http://localhost:2199/eureka/
+     defaultZone: http://localhost:2188/eureka/
 
 #####################################################################################################
 
@@ -17,6 +17,7 @@ logging:
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
     com.springms: DEBUG
+    com.sun:debug
 #####################################################################################################
 
 
