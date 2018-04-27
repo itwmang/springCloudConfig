@@ -14,10 +14,10 @@ logging:
   level:
     root: INFO
     org.hibernate: INFO
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicBinder: info
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
-    com.springms: DEBUG
-    com.sun:debug
+    com.springms: info
+    com.sun:info
 #####################################################################################################
 
 
