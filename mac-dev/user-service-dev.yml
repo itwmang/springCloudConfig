@@ -9,15 +9,14 @@ eureka:
 #####################################################################################################
 
 
-# 打印日志  TRACE
+# 打印日志 trace
 logging:
   level:
-    root: INFO
+    root: debug
     org.hibernate: INFO
-    org.hibernate.type.descriptor.sql.BasicBinder: info
-    org.hibernate.type.descriptor.sql.BasicExtractor: info
-    com.springms: info
-    com.sun:info
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    com.springms: DEBUG
 #####################################################################################################
 
 
@@ -78,7 +77,7 @@ druid:
 #datasource config
 jdbc:
   driverClassName: com.mysql.jdbc.Driver
-  url: jdbc:mysql://192.168.1.188:3306/study?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+  url: jdbc:mysql://192.168.1.188:3306/logis?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
   username: root
   password: root
 #####################################################################################################
