@@ -36,7 +36,7 @@ eureka:
     healthcheck:
       enable: true # 开启健康检查（依赖spring-boot-starter-actuator）
     service-url:
-      defaultZone: http://eureka:eureka@localhost:2188/eureka
+      defaultZone: http://eureka:eureka@120.79.90.129:2188/eureka
       #开启密码模式 http://${userName}:${password}@localhost:2180/eureka
     registry-fetch-interval-seconds: 10
 
@@ -62,7 +62,7 @@ logging:
 # druid 连接池配置
 druid:
   driver-class-name: com.mysql.jdbc.Driver
-  url: jdbc:mysql://127.0.0.1:3306/study?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+  url: jdbc:mysql://120.79.90.129:3306/auth?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
   username: root
   password: password
   #初始化大小
