@@ -17,7 +17,7 @@ eureka:
     healthcheck:
       enable: true # 开启健康检查（依赖spring-boot-starter-actuator）
     service-url:
-      defaultZone: http://eureka:eureka@localhost:2188/eureka
+      defaultZone: http://eureka:eureka@120.79.90.129:2188/eureka
       #开启密码模式 http://${userName}:${password}@localhost:2180/eureka
     registry-fetch-interval-seconds: 10
 
