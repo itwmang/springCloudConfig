@@ -57,7 +57,7 @@ druid:
   #初始化大小
   initial-size: 5
   #最小
-  min-idle : 20
+  min-idle : 10
       #最大
   max-active : 20
   max-wait : 60000
