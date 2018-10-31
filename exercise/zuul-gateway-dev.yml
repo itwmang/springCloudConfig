@@ -55,6 +55,7 @@ security:
       jwt:
          #key-uri: ${security.auth.server}/oauth/token_key #使用JWT令牌，RSA公开密钥可以用于令牌验证
          key-value: wmangccc.888888
+
 #security:
 #  validate:
 #    code: false
