@@ -142,7 +142,7 @@ fw:
 
 jwt:
   auth:
-    clientId: com.wmang.spring.cloud.exercise
+    clientId: com.wmang.spring:cloud.exercise
     clientSecret: com.wmang.spring:cloud.exercise.888888
     scope: server
 #    privateKey:
