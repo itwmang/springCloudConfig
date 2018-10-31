@@ -143,7 +143,7 @@ fw:
 jwt:
   auth:
     clientId: com.wmang.exercise
-    clientSecret: e2NvbS53bWFuZy5leGVyY2lzZS44ODg4ODh9
+    clientSecret: e2JjcnlwdH0kMmEkMTAkUDdBZm1ucEU4dlNkZkF0ZnlrV1R0LmxKbnd0U0c0MXkyOTFIc0I2WTM2VjZOU2VOcUcyNW0=
     scope: server
 #    privateKey:
 #    publicKey:
