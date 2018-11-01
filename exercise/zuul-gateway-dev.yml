@@ -94,6 +94,8 @@ zuulFilter:
 
 zuul:
   ribbon:
+    SocketTimeout: 30000
+    ReadTimeout: 30000
     eager-load:
       enabled: true #开启Ribbon的饥饿加载模式
       clients: authentic-service,user-service #指定需要饥饿加载的客户端名称、服务名
@@ -107,6 +109,8 @@ zuul:
       serviceId: authentic-service
       stripPrefix: true
       sensitiveHeaders:
+      ConnetTimeout: 30000
+      ReadTimeout: 30000
     user-service:
       path: /user/**
       serviceId: user-service
@@ -140,7 +144,7 @@ redis:
   # Redis数据库索引（默认为0）
   database: 0
   # Redis服务器地址
-  host: 127.0.0.1
+  host: 120.79.90.129
   # Redis服务器连接端口
   port: 6379
   # Redis服务器连接密码（默认为空）
