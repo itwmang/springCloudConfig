@@ -46,15 +46,15 @@ security:
   sessions: stateless
   oauth2:
     client:
-      clientId: com.wmang.spring.cloud.exercise
-      clientSecret: com.wmang.spring.cloud.exercise.888888
+      clientId: Y29tLndtYW5nLmV4ZXJjaXNl
+      clientSecret: e2JjcnlwdH0kMmEkMTAkUDdBZm1ucEU4dlNkZkF0ZnlrV1R0LmxKbnd0U0c0MXkyOTFIc0I2WTM2VjZOU2VOcUcyNW0=
     resource:
       loadBalanced: true
       token-info-uri: ${security.auth.server}/oauth/check-token #由资源服务器用来解码访问令牌
       service-id: zuul-gateway
       jwt:
          #key-uri: ${security.auth.server}/oauth/token_key #使用JWT令牌，RSA公开密钥可以用于令牌验证
-         key-value: wmangccc.888888
+         key-value: jwt:token:wmang
 
 #security:
 #  validate:

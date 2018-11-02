@@ -122,7 +122,7 @@ redis:
       # 连接池中的最小空闲连接
       min-idle: 0
   # 连接超时时间（毫秒）
-  timeout: 1000
+  timeout: 30000
 
 #################redis哨兵设置#################
 # Redis服务器master的名字
@@ -141,10 +141,10 @@ fw:
     jwtKey: jwt:token:wmang
 
 jwt:
-  auth:
     clientId: Y29tLndtYW5nLmV4ZXJjaXNl
     clientSecret: e2JjcnlwdH0kMmEkMTAkUDdBZm1ucEU4dlNkZkF0ZnlrV1R0LmxKbnd0U0c0MXkyOTFIc0I2WTM2VjZOU2VOcUcyNW0=
     scope: server
+  auth:
 #    privateKey:
 #    publicKey:
 
