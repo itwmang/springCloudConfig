@@ -141,10 +141,10 @@ fw:
     jwtKey: jwt:token:wmang
 
 jwt:
+  auth:
     clientId: Y29tLndtYW5nLmV4ZXJjaXNl
     clientSecret: e2JjcnlwdH0kMmEkMTAkUDdBZm1ucEU4dlNkZkF0ZnlrV1R0LmxKbnd0U0c0MXkyOTFIc0I2WTM2VjZOU2VOcUcyNW0=
     scope: server
-  auth:
 #    privateKey:
 #    publicKey:
 
