@@ -167,19 +167,19 @@ ribbon:
 #请求连接的超时时间
   ConnectTimeout: 30000
 
-#feign.hystrix.enabled: true
+feign.hystrix.enabled: true
 #hystrix 熔断机制
-#hystrix:
-#  shareSecurityContext: true
-#  command:
-#    default:
-#      circuitBreaker:
-#        sleepWindowInMilliseconds: 100000
-#        forceClosed: true
-#      execution:
-#        isolation:
-#          thread:
-#            timeoutInMilliseconds: 600000
+hystrix:
+  shareSecurityContext: true
+  command:
+    default:
+      circuitBreaker:
+        sleepWindowInMilliseconds: 100000
+        forceClosed: true
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 600000
 
 
 ##动态刷新配置文件
