@@ -1,6 +1,8 @@
 server:
   port: 9001
 spring:
+  security:
+    enabled: true
   application:
     name: user-service
   rabbitmq:
@@ -116,10 +118,8 @@ mybatis:
 #####################################################################################################
 
 
-##动态刷新配置文件
+
+#不需要认证
 management:
-  endpoints:
-    web:
-      exposure:
-        #暴露bus-refresh节点，通过此节点刷新配置
-        inclouds: '*'
+  security:
+    enabled: true
