@@ -98,7 +98,7 @@ zuul:
     ReadTimeout: 30000
     eager-load:
       enabled: true #开启Ribbon的饥饿加载模式
-      clients: authentic-service,user-service #指定需要饥饿加载的客户端名称、服务名
+      clients: authentic-service,system-service #指定需要饥饿加载的客户端名称、服务名
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
@@ -112,8 +112,8 @@ zuul:
       ConnetTimeout: 30000
       ReadTimeout: 30000
     user-service:
-      path: /user/**
-      serviceId: user-service
+      path: /system/**
+      serviceId: system-service
       stripPrefix: true
       sensitiveHeaders:
 #    business-admin-server:
