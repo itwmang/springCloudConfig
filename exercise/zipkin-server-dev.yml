@@ -19,8 +19,11 @@ server:
 spring:
   application:
     name: zipkin-server
+  da
 
 #不需要认证
 management:
   security:
     enabled: true
+
+
