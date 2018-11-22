@@ -33,6 +33,11 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
+  zipkin:
+    base-url: http://localhost:11080
+    sleuth:
+      sampler:
+        percentage: 1.0
 
 ribbon:
   eager-load:
@@ -104,3 +109,6 @@ redis:
 fw:
   jwt:
     jwtKey: jwt:token:wmang
+
+zipkin:
+  server:
