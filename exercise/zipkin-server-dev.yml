@@ -19,8 +19,19 @@ server:
 spring:
   application:
     name: zipkin-server
-  da
-
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: password
+    url: jdbc:mysql://localhost:3306/study?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+zipkin:
+  collector:
+    rabbitmq: 127.0.0.1:5672
+    username: rabbitmq
+    password: rabbitmq
+    queue: zipkin
+  storage:
+    type: mysql
 #不需要认证
 management:
   security:
