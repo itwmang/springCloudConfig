@@ -34,6 +34,7 @@ spring:
       max-file-size: 1000MB
       max-request-size: 1000MB
   zipkin:
+    enabled: true
     base-url: http://localhost:11080
     sleuth:
       sampler:
