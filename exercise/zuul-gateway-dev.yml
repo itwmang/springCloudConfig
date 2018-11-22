@@ -4,6 +4,14 @@ server:
 spring:
   application:
      name: zuul-gateway
+  zipkin:
+    enabled: true
+    base-url: http://localhost:11080
+    rabbitmq:
+      queue: zipkin
+  sleuth:
+    sampler:
+      percentage: 1.0
 
 eureka:
   instance:
