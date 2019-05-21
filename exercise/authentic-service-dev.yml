@@ -120,6 +120,7 @@ jwt:
 urls:
   collects:
   - /auth/**
+  - /user/**
   - /**/*.css
   - /**/*.png
   - /info
