@@ -80,6 +80,7 @@ urls:
   collects:
   - /mobile/**
   - /auth/**
+  - /user/**
   - /user/info
   - /system/code/*
   - /system/api/info
